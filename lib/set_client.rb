@@ -10,7 +10,7 @@ module SetClient
     custom_endpoint :clone, on: :member, request_method: :post
 
     def create_locked_clone(new_name)
-        copy = self.clone(data: { attributes: { name: new_name }})
+        copy = self.clone(data: { attributes: { name: new_name }}).first
         copy.update_attributes(locked: true)
         copy
     end
