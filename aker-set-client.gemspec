@@ -1,10 +1,10 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'set_client/version'
+require 'aker-set-client/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "set_client"
+  spec.name          = "aker-set-client"
   spec.version       = SetClient::VERSION
   spec.authors       = ["David Robinson"]
   spec.email         = ["dr6@sanger.ac.uk"]

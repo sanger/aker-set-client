@@ -1,4 +1,4 @@
-require "set_client/version"
+require "aker-set-client/version"
 require "json_api_client"
 
 module SetClient
