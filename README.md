@@ -6,6 +6,10 @@ TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
+There is a dependency on json_api_client that resides in Sanger's repo. This is due to an issue with the original gem not raising errors on bad requests.
+
+To build this gem make sure you use bundler, as extra dependency is specified in Gemfile.
+
 Add this line to your application's Gemfile:
 
 ```ruby
