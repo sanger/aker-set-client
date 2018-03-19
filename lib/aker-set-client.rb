@@ -14,8 +14,12 @@ module SetClient
       id
     end
 
+    def create_unlocked_clone(new_name)
+      self.clone(data: { attributes: { name: new_name }}).first
+    end
+
     def create_locked_clone(new_name)
-      copy = self.clone(data: { attributes: { name: new_name }}).first
+      copy = create_unlocked_clone(new_name)
       copy.update_attributes(locked: true)
       copy
     end

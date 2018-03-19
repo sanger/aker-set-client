@@ -42,6 +42,17 @@ describe SetClient do
       end
     end
 
+    describe '#create_unlocked_clone' do
+      it "can create a locked clone" do
+        id = "123"
+        setup_set(id)
+        s = SetClient::Set.find(id).first
+        c = s.create_unlocked_clone('Wyoming')
+        expect(c.id).not_to eq id
+        expect(c.locked).to eq false
+      end
+    end
+
     describe '#summarise' do
       it "summarises a set" do
         id = "123"
