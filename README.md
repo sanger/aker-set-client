@@ -1,4 +1,8 @@
-# SetClient
+# Aker - Sets client gem
+
+[![Build Status](https://travis-ci.org/sanger/aker-sets-client-gem.svg?branch=master)](https://travis-ci.org/sanger/aker-sets-client-gem)
+[![Maintainability](https://api.codeclimate.com/v1/badges/569cedb328b1c9198381/maintainability)](https://codeclimate.com/github/sanger/aker-sets-client-gem/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/569cedb328b1c9198381/test_coverage)](https://codeclimate.com/github/sanger/aker-sets-client-gem/test_coverage)
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/aker-set-client`. To experiment with that code, run `bin/console` for an interactive prompt.
 
@@ -37,4 +41,3 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/aker-set-client'.
-
